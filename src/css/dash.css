@@ -1,0 +1,205 @@
+body{
+  background-color: rgb(234, 239, 246);
+}
+.dash-head {
+  background-color: grey;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.search-bar input {
+  height: 35px;
+  width: 40%;
+  border: 1px solid rgb(209, 229, 246);
+  border-radius: 5px;
+  background-color: aliceblue;
+
+} 
+
+input:focus {
+  outline: none;
+}
+.dropdown{
+  height: 300px;
+  width: 39%;
+  margin-left: 19.8rem;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+
+}
+.dropdown p{
+  cursor: pointer;
+}
+
+
+.add-widget {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+.widgetin-delete{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(133, 65, 196);
+  border-radius: 50%;
+  margin-left: 130px;
+  display: flex;
+  justify-content: center;
+  color: rgb(133, 65, 196);
+  cursor: pointer;
+  
+}
+.widgetin-delete:hover{
+  color: white;
+  background-color: rgb(133, 65, 196);
+
+}
+.refresh-btn {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.dot-btn {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.CSPM-row {
+  background-color: rgb(232, 232, 232);
+  border-radius: 20px;
+  padding: 10px 10px;
+  height: auto;
+}
+.cspm-data {
+  background-color: white;
+  width: 440px;
+  height: 220px;
+
+  border-radius: 10px;
+}
+.Add-widget-inline {
+  background-color: white;
+  width: 400px;
+  height: 220px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#widget-btn {
+  background-color: transparent;
+  padding: 10px 40px;
+  border: 1px solid lightgrey;
+}
+
+
+/* Sidebar CSS */
+.overlay {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: 1;
+}
+.sidebar {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 650px;
+  height: 100vh;
+  left: 55%;
+  background-color: white;
+}
+.heading {
+  background-color: rgb(63, 31, 126);
+  padding: 10px;
+  color: white;
+  height: 40px;
+}
+
+.close-icon button i {
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.close-icon button {
+  background-color: transparent;
+  border: none;
+}
+
+.sidebar.open {
+  transform: translateX(0); 
+}
+
+.sidebar.closed {
+  transform: translateX(-100%); 
+}
+.sidebar-cat {
+
+  display: flex;
+  border-bottom: none;
+
+  width:70%;
+  margin-left: 20px;
+}
+.sidebar-cat button {
+    background-color: transparent;
+    border: none;
+    padding: 0px 20px;
+    position: relative; 
+    font-size: 15px; 
+}
+
+.widget-list {
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.tab-btn.active {
+  background-color:  rgb(63, 31, 126);
+  color: white;
+}
+.sidebar-cat button{
+    background-color: transparent;
+    color: rgb(63, 31, 126);
+    border: none;
+    margin: 0px 20px;
+    border: 1px solid rgb(63, 31, 126);
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+.cancel-sidebar button{
+  position: absolute;
+  top: 24rem;
+  left:26rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+
+}
+.confirm-sidebar button{
+  position: absolute;
+  top: 24rem;
+  left:30rem;
+  background-color: rgb(63, 31, 126);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}

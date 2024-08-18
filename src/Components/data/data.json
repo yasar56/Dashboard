@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "widget1",
+          "name": "Cloud Accounts",
+          "type": "pie",
+          "text": "No Graph Data Available",
+          "data": [
+            { "label": "Connected (2)" , "value": 2, "color": "#0088FE" },
+            { "label": "Not Connected (2)", "value": 2, "color": "#FFBB28" }
+          ]
+        },
+        {
+          "id": "widget2",
+          "name": "Cloud Account Risk Assessment",
+          "type": "pie",
+          "text": "No Graph Data Available",
+
+          "data": [
+            { "label": "Failed (1689)", "value": 1689, "color": "#FF0000" },
+            { "label": "Warning (681)", "value": 681, "color": "#FFA500" },
+            { "label": "Not Available (36)", "value": 681, "color": "#D5ED9F" },
+            { "label": "Passed (7253)", "value": 7253, "color": "#00C49F" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "widget3",
+          "name": "Top 5 Namespace Specific Alerts",
+          "type": "line",
+          "text": "No Graph Data Available",
+
+          "data": [
+            
+          ]
+        },
+        {
+          "id": "widget4",
+          "name": "Workload Alerts",
+          "type": "line",
+          "text": "No Graph Data Available",
+
+          "data": [
+            
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "widget5",
+          "name": "Widget5",
+          "type": "line",
+          "text": "No Graph Data Available",
+
+          "data": [
+            { "name": "Jan", "value": 400 },
+            { "name": "Feb", "value": 2000 },
+            { "name": "May", "value": 189 }
+          ]
+        },
+        {
+          "id": "widget6",
+          "name": "Widget6",
+          "type": "linebar",
+          "text": "No Graph Data Available",
+
+          "data": [
+            { "name": "Jan", "value": 100 },
+            { "name": "Feb", "value": 200 },
+            { "name": "May", "value": 500 }
+          ]
+        }
+      ]
+    }
+  ]
+}
