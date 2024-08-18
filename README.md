@@ -66,7 +66,7 @@ Ensure you have the following installed:
 
 #### 1. Adding Widgets:
 
-- Navigate to a category.
+- Navigate to the category.
 - Click the '+Add Widget' button.
 - Enter the widget name and description, and it will be added to the category.
 
