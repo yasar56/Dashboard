@@ -27,5 +27,11 @@ Ensure you have the following installed:
 
 
 1. Clone the repository to your local machine:
+
    ```bash
-   git clone https://github.com/yourusername/dashboard-app.git
+   git clone https://github.com/yasar56/Dashboard.git
+
+2. Navigate to the project directory:
+
+cd dashboard-app
+
