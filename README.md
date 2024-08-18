@@ -24,3 +24,8 @@ Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (which includes npm)
 - [Git](https://git-scm.com/) (optional, for cloning the repository)
+
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/dashboard-app.git
