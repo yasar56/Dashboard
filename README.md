@@ -83,17 +83,25 @@ Ensure you have the following installed:
 
 ## Directory Structure
 
-```plaintext
-src/
-  ├── components/
-  │   ├── dash.jsx
-  │   ├── sidebar.jsx
-  ├── store.js
-  ├── App.js
-  ├── index.js
+    ```plaintext
+    src/
+    ├── components/
+    │   ├── dash.jsx
+    │   ├── sidebar.jsx
+    │   ├── data/
+    │   │   └── data.json
+    ├── css/
+    │   ├── dash.css
+    ├── store.js
+    ├── App.js
+    ├── index.js
+    ├── index.css
+    └── app.css
 
-### key points:
 
-- dash.jsx: The main dashboard component where widgets are displayed.
-- sidebar.jsx: The sidebar component for managing widget visibility.
-- store.js: Redux store configuration.
+### Contact
+
+#### For any inquiries or support, please contact:
+
+- Mohamed Javed Yasar
+- Email: yasarm0024@gmail.com
