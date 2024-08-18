@@ -52,15 +52,15 @@ Ensure you have the following installed:
    ```bash
     npm install
 
-    This command installs React and all other dependencies listed in the package.json file.
-
 3. Run the Application:
     
     Start the development server
+    
+    The application will be available at http://localhost:3000/.
+
 
     ```bash
     npm start
     
-### The application will be available at http://localhost:3000/.
 
 
