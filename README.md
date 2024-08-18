@@ -33,5 +33,34 @@ Ensure you have the following installed:
 
 2. Navigate to the project directory:
 
-cd dashboard-app
+   ```bash
+    cd dashboard
+
+## Installing React and Dependencies
+
+
+1. Initialize the React Project (if not already done):
+   If you don't have the create-react-app tool installed, you can install it globally using npm:
+
+     ```bash
+     npm install -g create-react-app
+
+2. Install Project Dependencies:
+
+   Make sure you are in the project directory, then install all required dependencies:
+
+   ```bash
+    npm install
+
+    This command installs React and all other dependencies listed in the package.json file.
+
+3. Run the Application:
+    
+    Start the development server
+
+    ```bash
+    npm start
+    
+    The application will be available at http://localhost:3000/.
+
 
