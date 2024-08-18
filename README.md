@@ -64,8 +64,36 @@ Ensure you have the following installed:
 
 ### Usage
 
-##### Adding Widgets:
+1. Adding Widgets:
 
 - Navigate to a category.
 - Click the '+Add Widget' button.
 - Enter the widget name and description, and it will be added to the category.
+
+2. Removing Widgets:
+
+- Click the 'Remove' button on the widget to remove it from the dashboard.
+- The corresponding checkbox in the sidebar will be unchecked.
+
+3. Managing Categories:
+
+- Use the sidebar to check or uncheck widgets. Click the 'Confirm' button to apply changes.
+
+
+
+## Directory Structure
+
+```plaintext
+src/
+  ├── components/
+  │   ├── dash.jsx
+  │   ├── sidebar.jsx
+  ├── store.js
+  ├── App.js
+  ├── index.js
+
+## Explanation
+
+- dash.jsx: The main dashboard component where widgets are displayed.
+- sidebar.jsx: The sidebar component for managing widget visibility.
+- store.js: Redux store configuration.
