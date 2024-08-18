@@ -98,7 +98,7 @@ Ensure you have the following installed:
     └── app.css
 
 
-### Contact
+## Contact
 
 #### For any inquiries or support, please contact:
 
