@@ -12,7 +12,7 @@ This project is a dynamic dashboard application built using React. It allows use
 - Search Functionality: Easily search for widgets across categories.
 
 
-## Demo Link
+## Application Hosting Link
 
 You can view a live demo of the dashboard application at: [Dashboard Demo](https://dashboardcloud.netlify.app/)
 
@@ -83,7 +83,6 @@ Ensure you have the following installed:
 
 ## Directory Structure
 
-    ```plaintext
     src/
     ├── components/
     │   ├── dash.jsx
