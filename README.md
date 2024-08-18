@@ -92,7 +92,7 @@ src/
   ├── App.js
   ├── index.js
 
-## Explanation
+### key points:
 
 - dash.jsx: The main dashboard component where widgets are displayed.
 - sidebar.jsx: The sidebar component for managing widget visibility.
