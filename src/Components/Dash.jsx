@@ -40,7 +40,7 @@ export default function Dash() {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
 
   const handleRemoveWidget = (categoryId, widgetId) => {
-    dispatch(toggleWidget(categoryId, widgetId)); // Dispatch the action to toggle visibility
+    dispatch(toggleWidget(categoryId, widgetId));
   };
 
 
@@ -121,6 +121,8 @@ export default function Dash() {
             <div className="col-3">
               <h5 className="d-flex">Dashboard</h5>
             </div>
+
+           {/* Search Bar */}
             <div className="col search-bar text-center">
               <input 
                 type="text"
@@ -219,6 +221,8 @@ export default function Dash() {
           </div>
         ))}
       </div>
+
+        {/* Sidebar */}
 
       {isOpenSidebar && (
         <Sidebar

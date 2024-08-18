@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Dashboard Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview
+
+This project is a dynamic dashboard application built using React. It allows users to manage categories and widgets, add or remove widgets, and store the state of these actions using Redux.
 
 ## Available Scripts
 
