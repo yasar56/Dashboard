@@ -61,6 +61,11 @@ Ensure you have the following installed:
 
     ```bash
     npm start
-    
 
+### Usage
 
+##### Adding Widgets:
+
+- Navigate to a category.
+- Click the '+Add Widget' button.
+- Enter the widget name and description, and it will be added to the category.
