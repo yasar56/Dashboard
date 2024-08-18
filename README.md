@@ -64,18 +64,18 @@ Ensure you have the following installed:
 
 ### Usage
 
-1. Adding Widgets:
+#### 1. Adding Widgets:
 
 - Navigate to a category.
 - Click the '+Add Widget' button.
 - Enter the widget name and description, and it will be added to the category.
 
-2. Removing Widgets:
+#### 2. Removing Widgets:
 
 - Click the 'Remove' button on the widget to remove it from the dashboard.
 - The corresponding checkbox in the sidebar will be unchecked.
 
-3. Managing Categories:
+#### 3. Managing Categories:
 
 - Use the sidebar to check or uncheck widgets. Click the 'Confirm' button to apply changes.
 
